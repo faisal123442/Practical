@@ -15,21 +15,7 @@ class Book {
         this.available = true;
     }
 
-    public String getTitle() {
-        return title;
-    }
 
-    public boolean isAvailable() {
-        return available;
-    }
-
-    public void borrow() {
-        available = false;
-    }
-
-    public void returnBook() {
-        available = true;
-    }
 }
 
 class Library {
